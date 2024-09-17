@@ -98,10 +98,12 @@ nav .navlinks {
 }
 
 nav .navlinks li {
+    text-decoration: none;
     display: inline-block;
 }
 
 nav .navlinks li a {
+    text-decoration: none;
     color: #e5e5e5;
     margin-right: 2.5rem;
 }
@@ -196,11 +198,12 @@ nav .navlinks li a:hover {
     font-size: 1em;
 }
 
-.btn-group {
+.btn-group-css {
     margin: 45px 0;
 }
 
-.btn-group .btn {
+.btn-group-css .btn-css {
+    text-decoration: none;
     border-color: #d5d5d5;
     color: #fff;
     background-color: #333;
@@ -212,7 +215,11 @@ nav .navlinks li a:hover {
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 
-.btn.active {
+.btn-css .active-css {
+    border-color: #A91D3A;
+}
+
+.btn-group-css .btn-css:hover {
     border-color: #A91D3A;
 }
 
