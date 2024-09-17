@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-n"></i>
+                    <div class="logo-text">anda</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./src/portofolio.html">Portofolio</a></li>
+                        <li><a href="./src/certificate.html">Certificates</a></li>
+                        <li><a href="./src/blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="images/main_photo.jpeg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Undergraduate</span></h5>
+                    <h1>Nanda Bagus R</h1>
+                    <p> As a dedicated undergraduate student at Universitas Wahid Hasyim, I am pursuing my Bachelor’s degree in Informatics Engineering. My passion lies in Machine Learning and Data scientist, where I continuously strive to expand my skills and contribute to meaningful projects. I possess a strong foundation in Data Analyst
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="./assets/Nanda Bagus Ramadhani.pdf" download="./assets/Nanda Bagus Ramadhani.pdf" class="btn active">Download CV</a>
+                       <a href="mailto:nandamanyoran@gmail.com?subject=Hello Nanda" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/nanda.b.r.37?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://linkedin.com/in/nanda-ramdhan-30271828b"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/nannraa__?igsh=MThzb3J2dzY3anFjNg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/MadeltAlfa"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Nanda. All Rights Reserved</p>
+    </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Undergraduate","Student","Wahid Hasyim University","informatics engineering"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>
