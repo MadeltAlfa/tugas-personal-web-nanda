@@ -203,6 +203,7 @@ nav .navlinks li a:hover {
 }
 
 .btn-group-css .btn-css {
+    display: flex;
     text-decoration: none;
     border-color: #d5d5d5;
     color: #fff;
