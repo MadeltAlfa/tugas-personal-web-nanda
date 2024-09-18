@@ -110,6 +110,7 @@ nav .navlinks li a {
 
 nav .navlinks li a:hover {
     color: #A91D3A;
+    transition: 0.5s;
 }
 
 .container {
@@ -221,6 +222,7 @@ nav .navlinks li a:hover {
 
 .btn-group-css .btn-css:hover {
     border-color: #A91D3A;
+    transition: 0.5s;
 }
 
 .hero-text .social i {
@@ -240,6 +242,27 @@ nav .navlinks li a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 32px;
+}
+
+.card {
+    background-color: #444;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #444;
+    border-color: #A91D3A;
+}
+
+.btn-primary:hover {
+    background-color: #A91D3A;
+    border-color: #A91D3A;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card-body {
+    border: white;
 }
 
 /* Respnosiv design & displaying navbar for small screen */
