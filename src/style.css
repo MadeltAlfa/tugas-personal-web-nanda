@@ -258,11 +258,19 @@ nav .navlinks li a:hover {
     background-color: #A91D3A;
     border-color: #A91D3A;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .card-body {
     border: white;
+}
+
+.title-assigment {
+    color: #A91D3A;
+}
+
+.blog-header-back {
+    position: fixed;
 }
 
 /* Respnosiv design & displaying navbar for small screen */
