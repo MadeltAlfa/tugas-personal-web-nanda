@@ -273,6 +273,11 @@ nav .navlinks li a:hover {
     position: fixed;
 }
 
+.img-card {
+    width: 500px;
+    height: 500px;
+}
+
 /* Respnosiv design & displaying navbar for small screen */
 @media(max-width:930px) {
     nav .togglebtn {

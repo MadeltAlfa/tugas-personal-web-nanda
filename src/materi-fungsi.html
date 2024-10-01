@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Persamaan Matematika</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-X3UQdbq0KCaGWNhF5ui/xJB5Be0x4soOqpnuWPd/L4i6MK8sbK9gaREI2S" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-PczxT," crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="equation">
+    \[f(x) = \frac{p(x)}{q(x)}\]
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.getElementById('equation'), {
+        // ... options ...
+      });
+    });
+  </script>
+</body>
+</html>
